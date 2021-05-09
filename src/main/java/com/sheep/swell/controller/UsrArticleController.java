@@ -17,7 +17,7 @@ public class UsrArticleController {
 	@RequestMapping("/usr/article/detail")
 	@ResponseBody
 	public Article showDetail(int id) {
-		Article article = new Article(1,"2020-1212 12:12:12","제목1", "내용1");
+		Article article = new Article(1,"2020-1212 12:12:12","제목1", "내용111111111111");
 		return article;
 	}
 }
